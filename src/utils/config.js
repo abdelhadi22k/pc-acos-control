@@ -1,9 +1,3 @@
-var domain
-
-if(process.env.NODE_ENV === 'production'){
-
-}else{
-    domain = 'http://localhost:8000'
-}
+var domain = https://pc-store-acos-back-end.vercel.app
 
 export default domain;
